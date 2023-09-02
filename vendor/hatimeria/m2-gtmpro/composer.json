@@ -1,0 +1,19 @@
+{
+    "name": "hatimeria/m2-gtmpro",
+    "description": "Hatimeria - Google Tag Manager module (Magento 2)",
+    "type": "magento2-module",
+    "version": "1.1.11",
+    "require": {
+        "hatimeria/m2-hatimeria-base": "^1.0.0",
+        "magento/framework": "^103",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hatimeria\\GtmPro\\": ""
+        }
+    }
+}

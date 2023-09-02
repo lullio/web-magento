@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<!--
+  ~  @category   Hatimeria
+  ~  @author      (office@hatimeria.com)
+  ~  @copyright  Copyright (c) 2020 Hatimeria Sp. z o.o. Sp. k. ( https://www.hatimeria.com/ )
+  ~  @license    (https://www.gnu.org/licenses/gpl-3.0.html)
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="hatimeria_gtmpro" translate="label" sortOrder="140" showInDefault="1" showInWebsite="1" showInStore="1" >
+            <label>GTM Pro</label>
+            <tab>hatimeria</tab>
+            <resource>Hatimeria_GtmPro::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="container_id" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Container Public ID</label>
+                </field>
+                <field id="version" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>GA Version</label>
+                    <source_model>Hatimeria\GtmPro\Model\Config\Source\Version</source_model>
+                </field>
+            </group>
+            <group id="event" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Events</label>
+                <field id="product_impression_enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Product Impression Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                    <comment>Check the user guide in case of issues.</comment>
+                </field>
+                <field id="product_impression_track_class" translate="label" type="text" sortOrder="15" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Product Impression Track Class</label>
+                    <depends>
+                        <field id="hatimeria_gtmpro/event/product_impression_enabled">1</field>
+                    </depends>
+                </field>
+                <field id="product_click_enabled" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Product Click Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                    <comment>Check the user guide in case of issues.</comment>
+                </field>
+                <field id="product_click_element_class" translate="label" type="text" sortOrder="25" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Product Click Element Class</label>
+                    <depends>
+                        <field id="hatimeria_gtmpro/event/product_click_enabled">1</field>
+                    </depends>
+                    <comment>top list element class, probably the same as product_impression_track_class.</comment>
+                </field>
+                <field id="product_click_link_class" translate="label" type="text" sortOrder="26" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Product Click Link Class</label>
+                    <depends>
+                        <field id="hatimeria_gtmpro/event/product_click_enabled">1</field>
+                    </depends>
+                    <comment>Add comma separated classes of all elements which have to be tracked after click.</comment>
+                </field>
+                <field id="form_tracking_enabled" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Form Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="form_tracking_form_data" translate="label" sortOrder="35" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Forms</label>
+                    <frontend_model>Hatimeria\GtmPro\Block\Adminhtml\Form\Field\Event\Form</frontend_model>
+                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                    <depends>
+                        <field id="hatimeria_gtmpro/event/form_tracking_enabled">1</field>
+                    </depends>
+                </field>
+                <field id="transactions_enabled" translate="label comment" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Transactions Tracking</label>
+                    <comment>Populates GTM data layer with transaction data.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="transaction_affiliation" translate="label comment" type="text" sortOrder="45" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Transaction Affiliation</label>
+                    <comment>Optional value for transactionAffiliation field.</comment>
+                    <depends>
+                        <field id="*/*/transactions_enabled">1</field>
+                    </depends>
+                </field>
+                <field id="add_to_cart_tracking_enabled" translate="label comment" type="select" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Add To Cart Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="search_tracking_enabled" translate="label comment" type="select" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Search Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="product_view_tracking_enabled" translate="label comment" type="select" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Product View Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="add_product_review_tracking_enabled" translate="label comment" type="select" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Add Product Review Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="add_to_wishlist_tracking_enabled" translate="label comment" type="select" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Add To Wishlist Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="add_to_compare_tracking_enabled" translate="label comment" type="select" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Add To Compare Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="checkout_steps_tracking_enabled" translate="label comment" type="select" sortOrder="110" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Checkout Steps Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="promotion_tracking_enabled" translate="label comment" type="select" sortOrder="120" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Promotion Tracking</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                    <comment>
+                        <![CDATA[ <b>Example:<b> <br/> a href="promotion" data-promotion-id="id-required" data-promotion-name="name-optional" data-promotion-creative="creative-optional" data-promotion-position="position-optional_calculated_automatically_if_not_added"]]>
+                    </comment>
+                </field>
+                <field id="brand_attribute" translate="label" type="select" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Brand Attribute</label>
+                    <source_model>Hatimeria\GtmPro\Model\Config\Source\Attribute</source_model>
+                    <comment>will be added to product DataLayer data.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

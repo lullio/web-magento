@@ -1,0 +1,17 @@
+<?php
+/**
+ *  @category   Hatimeria
+ *  @author      (office@hatimeria.com)
+ *  @copyright  Copyright (c) 2020 Hatimeria Sp. z o.o. Sp. k. ( https://www.hatimeria.com/ )
+ *  @license    (https://www.gnu.org/licenses/gpl-3.0.html)
+ */
+
+/** @var \Hatimeria\GtmPro\Block\Wishlist\Customer\Item\Column\DataLayerData $block */
+// @codingStandardsIgnoreFile
+?>
+<?php if ($block->isProductImpressionTrackingEnabled()): ?>
+    <div class='product-impression-data' data-impression='<?= $block->getProductImpressionData() ?>'></div>
+<?php endif; ?>
+<?php if ($block->isProductClickTrackingEnabled()): ?>
+    <div class='product-click-data' data-click='<?= $block->getProductClickData() ?>'></div>
+<?php endif; ?>
