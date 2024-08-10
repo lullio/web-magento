@@ -1,0 +1,15 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1715255454;s:6:"expire";i:1715341854;s:4:"tags";s:150:"f73_BLOCK_HTML,f73_CAT_P_45,f73_CAT_P,f73_CAT_P_26,f73_CAT_P_29,f73_CAT_P_32,f73_CAT_P_21,f73_CAT_P_33,f73_CAT_P_34,f73_CAT_P_35,f73_CAT_P_22,f73_MAGE";}
+<div class="price-box price-configured_price" data-role="priceBox" data-product-id="45" data-price-box="product-id-45">        <p class="price-as-configured">
+        
+
+<span class="price-container price-configured_price&#x20;tax&#x20;weee"
+         itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <span  id="product-price-45"                data-price-amount="61"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">R$61.00</span></span>
+                <meta itemprop="price" content="61" />
+        <meta itemprop="priceCurrency" content="BRL" />
+    </span>
+    </p>
+</div>

@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1693633139;s:6:"expire";i:1693719539;s:4:"tags";s:116:"f73_CAT_P,f73_BLOCK_HTML,f73_CAT_P_1556,f73_CAT_P_1812,f73_CAT_P_694,f73_CAT_P_158,f73_CAT_P_6,f73_CAT_P_14,f73_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1723240194;s:6:"expire";i:1723326594;s:4:"tags";s:116:"f73_CAT_P,f73_BLOCK_HTML,f73_CAT_P_1556,f73_CAT_P_1812,f73_CAT_P_694,f73_CAT_P_158,f73_CAT_P_6,f73_CAT_P_14,f73_MAGE";}
         <div class="block widget block-products-list grid">
                 <div class="block-content">
             <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
@@ -44,9 +44,9 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                  title="60%">
                 <span><span>60%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elemntomuaQlArray = document.querySelectorAll('#rating-result_1556 span');
-    if(elemntomuaQlArray.length !== 'undefined'){
-        elemntomuaQlArray.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemoieTK7BiArray = document.querySelectorAll('#rating-result_1556 span');
+    if(elemoieTK7BiArray.length !== 'undefined'){
+        elemoieTK7BiArray.forEach(function(element) {
             if (element) {
                 element.style.width = '60%';
 
@@ -113,7 +113,7 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="WS12" action="https://magento.lullio.com.br/index.php/checkout/cart/add/uenc/aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIv/product/1556/" method="post">
                                                             <input type="hidden" name="product" value="1556">
                                                             <input type="hidden" name="uenc" value="aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIvaW5kZXgucGhwL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTl0WVdkbGJuUnZMbXgxYkd4cGJ5NWpiMjB1WW5Jdi9wcm9kdWN0LzE1NTYv">
-                                                            <input name="form_key" type="hidden" value="vHm0pt9UFpZffWFP" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="KAShrEsQLcoKXbAj" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -174,9 +174,9 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                  title="70%">
                 <span><span>70%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elembpVgQKOqArray = document.querySelectorAll('#rating-result_1812 span');
-    if(elembpVgQKOqArray.length !== 'undefined'){
-        elembpVgQKOqArray.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemTv0B4IZTArray = document.querySelectorAll('#rating-result_1812 span');
+    if(elemTv0B4IZTArray.length !== 'undefined'){
+        elemTv0B4IZTArray.forEach(function(element) {
             if (element) {
                 element.style.width = '70%';
 
@@ -243,7 +243,7 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="WT09" action="https://magento.lullio.com.br/index.php/checkout/cart/add/uenc/aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIv/product/1812/" method="post">
                                                             <input type="hidden" name="product" value="1812">
                                                             <input type="hidden" name="uenc" value="aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIvaW5kZXgucGhwL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTl0WVdkbGJuUnZMbXgxYkd4cGJ5NWpiMjB1WW5Jdi9wcm9kdWN0LzE4MTIv">
-                                                            <input name="form_key" type="hidden" value="vHm0pt9UFpZffWFP" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="KAShrEsQLcoKXbAj" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -350,7 +350,7 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="MT07" action="https://magento.lullio.com.br/index.php/checkout/cart/add/uenc/aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIv/product/694/" method="post">
                                                             <input type="hidden" name="product" value="694">
                                                             <input type="hidden" name="uenc" value="aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIvaW5kZXgucGhwL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTl0WVdkbGJuUnZMbXgxYkd4cGJ5NWpiMjB1WW5Jdi9wcm9kdWN0LzY5NC8~">
-                                                            <input name="form_key" type="hidden" value="vHm0pt9UFpZffWFP" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="KAShrEsQLcoKXbAj" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -457,7 +457,7 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="MH07" action="https://magento.lullio.com.br/index.php/checkout/cart/add/uenc/aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIv/product/158/" method="post">
                                                             <input type="hidden" name="product" value="158">
                                                             <input type="hidden" name="uenc" value="aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIvaW5kZXgucGhwL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTl0WVdkbGJuUnZMbXgxYkd4cGJ5NWpiMjB1WW5Jdi9wcm9kdWN0LzE1OC8~">
-                                                            <input name="form_key" type="hidden" value="vHm0pt9UFpZffWFP" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="KAShrEsQLcoKXbAj" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -518,9 +518,9 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                  title="67%">
                 <span><span>67%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elemZKkDpqVTArray = document.querySelectorAll('#rating-result_6 span');
-    if(elemZKkDpqVTArray.length !== 'undefined'){
-        elemZKkDpqVTArray.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemZPTQEGLsArray = document.querySelectorAll('#rating-result_6 span');
+    if(elemZPTQEGLsArray.length !== 'undefined'){
+        elemZPTQEGLsArray.forEach(function(element) {
             if (element) {
                 element.style.width = '67%';
 
@@ -553,7 +553,7 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="24-MB02" action="https://magento.lullio.com.br/index.php/checkout/cart/add/uenc/aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIv/product/6/" method="post">
                                                             <input type="hidden" name="product" value="6">
                                                             <input type="hidden" name="uenc" value="aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIvaW5kZXgucGhwL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTl0WVdkbGJuUnZMbXgxYkd4cGJ5NWpiMjB1WW5Jdi9wcm9kdWN0LzYv">
-                                                            <input name="form_key" type="hidden" value="vHm0pt9UFpZffWFP" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="KAShrEsQLcoKXbAj" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -614,9 +614,9 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                  title="67%">
                 <span><span>67%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elemBqKiPI5MArray = document.querySelectorAll('#rating-result_14 span');
-    if(elemBqKiPI5MArray.length !== 'undefined'){
-        elemBqKiPI5MArray.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemqqoMtLphArray = document.querySelectorAll('#rating-result_14 span');
+    if(elemqqoMtLphArray.length !== 'undefined'){
+        elemqqoMtLphArray.forEach(function(element) {
             if (element) {
                 element.style.width = '67%';
 
@@ -649,7 +649,7 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="24-WB04" action="https://magento.lullio.com.br/index.php/checkout/cart/add/uenc/aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIv/product/14/" method="post">
                                                             <input type="hidden" name="product" value="14">
                                                             <input type="hidden" name="uenc" value="aHR0cHM6Ly9tYWdlbnRvLmx1bGxpby5jb20uYnIvaW5kZXgucGhwL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTl0WVdkbGJuUnZMbXgxYkd4cGJ5NWpiMjB1WW5Jdi9wcm9kdWN0LzE0Lw~~">
-                                                            <input name="form_key" type="hidden" value="vHm0pt9UFpZffWFP" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="KAShrEsQLcoKXbAj" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
